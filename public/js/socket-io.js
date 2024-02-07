@@ -6,6 +6,10 @@ let socket = io(URL);
 //         'my-custom-header': 'abcd'
 //     }
 // });
+
+// npm install
+// npm install express
+// npm install socket
 var userId = $('#user-id').val();
 alert(userId);
 console.log('socket', socket, userId);
